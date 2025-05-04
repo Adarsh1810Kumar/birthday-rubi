@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Rubi ✨</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        .card-bg {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 50%, #a18cd1 100%);
+            background-size: 200% 200%;
+            animation: gradientBG 15s ease infinite;
+        }
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        @keyframes float {
+            0% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(5deg); }
+            100% { transform: translateY(0px) rotate(0deg); }
+        }
+        .float {
+            animation: float 3s ease-in-out infinite;
+        }
+        .cursive {
+            font-family: 'Dancing Script', cursive;
+        }
+        .bounce {
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+        .photo-frame {
+            border: 8px solid white;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            transform: rotate(-5deg);
+            transition: all 0.3s ease;
+        }
+        .photo-frame:hover {
+            transform: rotate(0deg) scale(1.05);
+        }
+        .glow {
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+        @keyframes glow {
+            from { text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60073, 0 0 20px #e60073; }
+            to { text-shadow: 0 0 10px #fff, 0 0 20px #ff4da6, 0 0 30px #ff4da6, 0 0 40px #ff4da6; }
+        }
+        .flip-in {
+            animation: flipIn 1s ease-out;
+        }
+        @keyframes flipIn {
+            from { transform: perspective(400px) rotateY(90deg); opacity: 0; }
+            to { transform: perspective(400px) rotateY(0deg); opacity: 1; }
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4" style="background: linear-gradient(45deg, #ffc3a0, #ffafbd, #a1c4fd, #c2e9fb); background-size: 300% 300%; animation: gradientBG 15s ease infinite;">
+    <div class="fixed top-10 left-5 text-4xl bounce" style="color: #ff6b6b; z-index: -1;">🎈</div>
+    <div class="fixed top-20 right-10 text-5xl bounce" style="color: #4ecdc4; z-index: -1; animation-delay: 0.5s;">🎈</div>
+    <div class="fixed bottom-20 left-20 text-6xl bounce" style="color: #ffbe76; z-index: -1; animation-delay: 1s;">🎈</div>
+    <div class="fixed bottom-10 right-20 text-4xl bounce" style="color: #a55eea; z-index: -1; animation-delay: 1.5s;">🎈</div>
+
+    <div class="max-w-2xl w-full relative">
+        <div class="absolute -top-10 -left-10 text-6xl text-pink-300 opacity-70">❀</div>
+        <div class="absolute -bottom-10 -right-10 text-6xl text-purple-300 opacity-70">✿</div>
+        
+        <div class="card-bg rounded-3xl shadow-2xl p-8 transform hover:scale-[1.01] transition-transform duration-500 backdrop-blur-sm bg-white/30 border-2 border-white/50">
+            <div class="text-center relative">
+                <div class="photo-frame w-32 h-32 mx-auto mb-6 bg-white rounded-lg overflow-hidden flip-in">
+                    <img src="WhatsApp Image 2025-05-04 at 10.37.03_74e5e2fa.jpg" 
+                         alt="Rubi" 
+                         class="w-full h-full object-cover"
+                         onerror="this.src='https:
+                </div>
+                <div class="float absolute -top-16 right-0 text-6xl text-red-500">❤️</div>
+                
+                <h1 class="cursive text-5xl md:text-6xl mb-6 text-rose-800 glow">Happy Birthday Rubi</h1>
+                
+                <div class="space-y-6 text-rose-900 font-medium">
+                    <p class="text-xl font-poppins transform hover:scale-105 transition-transform">
+                        To the most amazing friend who's like <span class="font-bold text-purple-700">sunshine</span> on a cloudy day 🌞
+                    </p>
+                    <div class="grid grid-cols-3 gap-2 my-6">
+                        <div class="col-span-1 rounded-lg overflow-hidden shadow-md transform hover:scale-110 transition-all">
+                            <img src="WhatsApp Image 2025-05-04 at 10.36.51_2a7a5dde.jpg" 
+                                 alt="Friends" 
+                                 class="w-full h-full object-cover"
+                                 onerror="this.src='https:">
+                        </div>
+                        <div class="col-span-1 rounded-lg overflow-hidden shadow-md transform hover:scale-110 transition-all">
+                            <img src="WhatsApp Image 2025-05-04 at 10.36.32_f999b8bb.jpg" 
+                                 alt="Celebration" 
+                                 class="w-full h-full object-cover"
+                                 onerror="this.src='https:">
+                        </div>
+                        <div class="col-span-1 rounded-lg overflow-hidden shadow-md transform hover:scale-110 transition-all">
+                            <img src="WhatsApp Image 2025-05-04 at 10.36.41_518c17f9.jpg" 
+                                 alt="Smile" 
+                                 class="w-full h-full object-cover"
+                                 onerror="this.src='https:">
+                        </div>
+                    </div>
+                    
+                    <p class="text-xl leading-relaxed">
+                        Your <span class="font-bold text-pink-600">laughter</span> is contagious, your <span class="font-bold text-blue-600">heart</span> is pure gold, and your <span class="font-bold text-purple-600">spirit</span> is absolutely radiant! ✨
+                    </p>
+                    
+                    <div class="italic text-xl bg-white/40 p-4 rounded-lg border-2 border-white/70 transform hover:scale-105 transition-transform">
+                        "Through all of life's ups and downs,<br>
+                        You're the best friend anyone could have found" 
+                    </div>
+                    
+                    <p class="text-xl">
+                        May this year bring you <span class="font-bold">endless joy</span>, <span class="font-bold">exciting adventures</span>, and <span class="font-bold">dreams come true</span>! You deserve the world and more! 🌍💖
+                    </p>
+                    
+                    <div class="cursive text-4xl text-rose-800 mt-8 mb-4 transform hover:scale-110 transition-transform inline-block">
+                        With all my love 💝
+                    </div>
+                </div>
+            </div>
+            <div class="mt-10 flex flex-wrap justify-center gap-4">
+                <button onclick="playBirthdaySong()" class="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-4 rounded-full flex items-center gap-3 transform hover:scale-105 transition-all shadow-lg hover:shadow-xl">
+                    <i class="bi bi-music-note-beamed text-2xl"></i>
+                    <span class="font-bold">Play Birthday Song</span>
+                </button>
+                
+                <button onclick="showConfetti()" class="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white px-8 py-4 rounded-full flex items-center gap-3 transform hover:scale-105 transition-all shadow-lg hover:shadow-xl">
+                    <i class="bi bi-stars text-2xl"></i>
+                    <span class="font-bold">More Confetti!</span>
+                </button>
+                
+                <button onclick="showSurprise()" class="bg-gradient-to-r from-amber-400 to-orange-500 hover:from-amber-500 hover:to-orange-600 text-white px-8 py-4 rounded-full flex items-center gap-3 transform hover:scale-105 transition-all shadow-lg hover:shadow-xl">
+                    <i class="bi bi-gift-fill text-2xl"></i>
+                    <span class="font-bold">Special Surprise!</span>
+                </button>
+            </div>
+            <div class="mt-12">
+                <h3 class="text-2xl font-bold text-center text-rose-800 mb-6 cursive">Our Beautiful Memories</h3>
+                <div class="flex flex-col space-y-4">
+                    <div class="flex items-start">
+                        <div class="bg-white rounded-full h-8 w-8 flex items-center justify-center mr-4 mt-1 flex-shrink-0 border-4 border-yellow-400">
+                            <div class="h-4 w-4 bg-yellow-500 rounded-full"></div>
+                        </div>
+                        <div class="bg-white/70 p-4 rounded-lg shadow-sm flex-1 transform hover:scale-[1.02] transition-transform">
+                            <p class="font-semibold text-pink-700">First Meetup</p>
+                            <p class="text-gray-700">Remember when we first met Instant connection 💫</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="bg-white rounded-full h-8 w-8 flex items-center justify-center mr-4 mt-1 flex-shrink-0 border-4 border-blue-400">
+                            <div class="h-4 w-4 bg-blue-500 rounded-full"></div>
+                        </div>
+                        <div class="bg-white/70 p-4 rounded-lg shadow-sm flex-1 transform hover:scale-[1.02] transition-transform">
+                            <p class="font-semibold text-blue-700">Road Trip Adventure</p>
+                            <p class="text-gray-700">That crazy road trip where we got lost but found the best ice cream 🍦</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="bg-white rounded-full h-8 w-8 flex items-center justify-center mr-4 mt-1 flex-shrink-0 border-4 border-green-400">
+                            <div class="h-4 w-4 bg-green-500 rounded-full"></div>
+                        </div>
+                        <div class="bg-white/70 p-4 rounded-lg shadow-sm flex-1 transform hover:scale-[1.02] transition-transform">
+                            <p class="font-semibold text-green-700">Midnight Talks</p>
+                            <p class="text-gray-700">All those deep conversations under the stars... ✨</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="surpriseModal" class="fixed inset-0 bg-black/80 flex items-center justify-center z-50 hidden">
+        <div class="bg-gradient-to-br from-pink-300 via-purple-300 to-indigo-300 rounded-2xl p-8 max-w-md w-full mx-4 relative">
+            <button onclick="hideSurprise()" class="absolute top-4 right-4 text-2xl text-gray-700 hover:text-black">&times;</button>
+            <h2 class="text-3xl font-bold text-center mb-6 text-purple-800 cursive">Surprise for You</h2>
+            <div class="text-center">
+                <img src="WhatsApp Image 2025-05-04 at 14.58.45_b3c3b420.jpg" 
+                     alt="Gift" 
+                     class="w-40 h-40 object-contain mx-auto mb-6 bounce"
+                     onerror="this.src='https:'">
+                <p class="text-xl mb-6">A virtual hug and all my love wrapped in this digital gift 🎁</p>
+                <p class="text-2xl font-bold text-pink-700 mb-4">You're the BEST</p>
+                <button onclick="startFireworks()" class="bg-gradient-to-r from-red-500 to-yellow-500 text-white px-6 py-3 rounded-full font-bold">
+                    Launch Fireworks! 🎆
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script>
+        function playBirthdaySong() {
+            const songs = [
+                'WhatsApp Audio 2025-05-04 at 14.53.01_6f7d4653.mp3',
+            ];
+            const randomSong = songs[Math.floor(Math.random() * songs.length)];
+            const audio = new Audio(randomSong);
+            audio.play();
+            showToast('🎵 Playing birthday music! Turn up volume!');
+        }
+        function showConfetti() {
+            confetti({
+                particleCount: 150,
+                spread: 70,
+                origin: { y: 0.6 }
+            });
+            setTimeout(() => {
+                confetti({
+                    particleCount: 50,
+                    spread: 60,
+                    origin: { y: 0.6 },
+                    shapes: ['heart']
+                });
+            }, 300);
+            setTimeout(() => {
+                confetti({
+                    particleCount: 50,
+                    spread: 60,
+                    origin: { y: 0.6 },
+                    shapes: ['star']
+                });
+            }, 600);
+            showToast('🎉 Woohoo! More celebration!');
+        }
+        function showSurprise() {
+            document.getElementById('surpriseModal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function hideSurprise() {
+            document.getElementById('surpriseModal').classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        function startFireworks() {
+            const duration = 3 * 1000;
+            const animationEnd = Date.now() + duration;
+            const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
+            
+            function randomInRange(min, max) {
+                return Math.random() * (max - min) + min;
+            }
+            
+            const interval = setInterval(function() {
+                const timeLeft = animationEnd - Date.now();
+                
+                if (timeLeft <= 0) {
+                    return clearInterval(interval);
+                }
+                
+                const particleCount = 50 * (timeLeft / duration);
+                confetti({
+                    ...defaults,
+                    particleCount,
+                    origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 }
+                });
+                confetti({
+                    ...defaults,
+                    particleCount,
+                    origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 }
+                });
+            }, 250);
+            
+            showToast('🎆 Fireworks launched! Enjoy the show!');
+        }
+        function showToast(message) {
+            const toast = document.createElement('div');
+            toast.className = 'fixed bottom-5 left-1/2 transform -translate-x-1/2 bg-black/80 text-white px-6 py-3 rounded-full text-sm font-medium shadow-lg z-50 animate-bounce';
+            toast.textContent = message;
+            document.body.appendChild(toast);
+            
+            setTimeout(() => {
+                toast.remove();
+            }, 3000);
+        }
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                showConfetti();
+                showToast('Happy Birthday Rubi! 🎂');
+            }, 1000);
+            const elements = document.querySelectorAll('.flip-in');
+            elements.forEach((el, i) => {
+                setTimeout(() => {
+                    el.style.animation = 'flipIn 1s ease-out';
+                }, i * 200);
+            });
+        });
+    </script>
+</body>
+</html>
